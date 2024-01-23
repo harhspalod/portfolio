@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <title>Contact Me</title>
+    <style>
+      body {
+        background-color: #4b0082;
+        color: white;
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+      }
+      p {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+      form {
+        text-align: center;
+        margin: 0 auto;
+        width: 300px;
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      input[type="text"], input[type="email"], textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: white;
+        color: #4b0082;
+      }
+      input[type="submit"] {
+        background-color: white;
+        color: #4b0082;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .social-media {
+        text-align: center;
+        margin-top: 50px;
+      }
+      .social-media a {
+        display: inline-block;
+        margin: 0 10px;
+      }
+     social-media a:hover {
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Contact Me</h1>
+    <body>
+<center style=color:black >
+    
+    <a href="index.html">Home</a>
+
+</center>
+              
+ <p>I'd love to hear from you! Please use the form below to send me a message.</p>
+    <form action="/submit_contact_form" method="post">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" required></textarea><br>
+      <input type="submit" value="Send">
+    </form>
+    <div class="social-media">
+      <a href="https://www.instagram.com/your-instagram-username/"><img src="https://www.vectorlogo.zone/logos/instagram/instagram-icon.svg" alt="Instagram" width="32" height="32"></a>
+      <a href="https://www.facebook.com/your-facebook-username/"><img src="https://www.vectorlogo.zone/logos/facebook/facebook-icon.svg" alt="Facebook" width="32" height="32"></a>
+      <!-- Add links to your other social media profiles here -->
+    </div>
+  </body>
+</html>
